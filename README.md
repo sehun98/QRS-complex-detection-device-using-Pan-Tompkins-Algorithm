@@ -25,7 +25,7 @@
 
 ### 심장의 전기신호 전달과정
 
-<div align="center">  <img src="./images/action_potential2.png" alt="action_potential2" width="200" /></div>
+![action_potential2.png](./Images/action_potential2.png)
 
 1. SA Node에서 시작된 전기 신호 : 심방을 따라 신호가 전달되어 심방을 수축시킨다. 이때 심방이 탈분극이 되지만 QRS파에는 나타나지 않고 QRS파는 심실의 탈분극을 나타내기 때문에, 심방 수축 시에는 P파가 나타난다.
 2. AV Node에서 신호 지연 : 심방이 수축하고 심실로 혈액을 충분히 보낼 수 있도록 확보한다.
@@ -45,19 +45,15 @@ T파 (S-wave) :  심실의 이완
 
 BPM을 계산하기 위해 심전도(ECG) 신호에서 QRS 복합체를 검출하는 알고리즘
 
-<div align="center">  <img src="./images/pan_tompkins_algorithm.png" alt="pan_tompkins_algorithm" /></div>
+![pan_tompkins_algorithm.png](./Images/pan_tompkins_algorithm.png)
 
 ### 실제 측정 데이터와 Pan Tompkins Algorithm 결과
 
-<div align="center">  <img src="./images/pan_tompkins_algorithm_result.png" alt="pan_tompkins_algorithm_result" /></div>
+![pan_tompkins_algorithm_result.png](./Images/pan_tompkins_algorithm_result.png)
+
+![figure1t.png](./Images/figure1.png)
 
 
-
-<div align="center">  <img src="./images/figure1.png" alt="figure1" width="300"/></div>
-
-<div align="center">  <img src="./images/figure2.png" alt="figure2" width="300"/></div>
-
-[ECG_Serial.m](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7fd048e-45c5-49ab-b234-d81b16a92994/ba46b4e6-6684-4396-b4ba-d1cb884583c2/ECG_Serial.m)
 
 ```c
 % UART 데이터 수신 및 실시간 플롯 (데이터 수신 속도 개선)
@@ -132,13 +128,23 @@ clear serialObj;
 disp('UART 포트가 닫혔습니다.');
 ```
 
+
+
 # Signal Process in LabVIEW
+
+
+
+![figure1t.png](./Images/figure.png)
 
 ------
 
 <div align="center">  <img src="./images/LabVIEW.png" alt="LabVIEW" /></div>
 
 <div align="center">  <img src="./images/LabVIEW2.png" alt="LabVIEW2" /></div>
+
+![figure1t.png](./Images/figure.png)
+
+
 
 # Objective
 
@@ -170,11 +176,11 @@ disp('UART 포트가 닫혔습니다.');
 
 ------
 
-![스크린샷 2024-11-10 215514.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7fd048e-45c5-49ab-b234-d81b16a92994/8173acca-56f8-4fad-9ef2-a8f9f5b314c2/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-10_215514.png)
+![figure1t.png](./Images/figure.png)
 
 ## 1. MCU / +5V Power / -5V Power / +3V3 Power
 
-![스크린샷 2024-11-10 215524.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7fd048e-45c5-49ab-b234-d81b16a92994/66a41c89-6493-4559-a330-e13222ea6015/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-10_215524.png)
+![figure1t.png](./Images/figure.png)
 
 ### 1.1 MCU (ATmega128) :
 
@@ -192,14 +198,14 @@ disp('UART 포트가 닫혔습니다.');
 
 ## 2. Electrocardiogram
 
-![스크린샷 2024-11-10 215533.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7fd048e-45c5-49ab-b234-d81b16a92994/c1a6871c-bf9b-4630-9c81-4897c288c2e0/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-10_215533.png)
+![figure1t.png](./Images/figure.png)
 
 ### 2.1 Electrocardiogram :
 
 - Description : Non-invert Amp + Differential Amp + Driven Right Leg + Active 1-pole band pass filter + Summing Amp
 - Communication : 10 bit resolution ADC
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7fd048e-45c5-49ab-b234-d81b16a92994/0d4bd5fe-8a0c-4fb4-b1eb-b0fe4f16ae59/image.png)
+![figure1t.png](./Images/figure.png)
 
 - Non-invert Amp : Differential Amp만 사용하게 될 경우 Lead 저항과 합성이 되어 impedance isolation을 진행해야 한다.
 
@@ -272,19 +278,19 @@ disp('UART 포트가 닫혔습니다.');
 
 ------
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7fd048e-45c5-49ab-b234-d81b16a92994/4c0f8206-5be8-4f73-a8f1-8cf785c6080f/image.png)
+![figure1t.png](./Images/figure.png)
 
 # Top Layer
 
 ------
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7fd048e-45c5-49ab-b234-d81b16a92994/b6bede03-f119-418a-9292-962c65e78ca3/image.png)
+![figure1t.png](./Images/figure.png)
 
 # Bottom Layer
 
 ------
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7fd048e-45c5-49ab-b234-d81b16a92994/808b1eea-3e37-4c74-93df-05e04986074e/image.png)
+![figure1t.png](./Images/figure.png)
 
 # 프로젝트 진행하면서 어려웠던 점
 
