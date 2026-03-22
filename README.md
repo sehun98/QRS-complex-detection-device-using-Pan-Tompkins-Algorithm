@@ -134,15 +134,11 @@ disp('UART 포트가 닫혔습니다.');
 
 
 
-![figure1t.png](./Images/figure.png)
+![LabVIEW.png](./Images/LabVIEW.png)
 
-------
 
-<div align="center">  <img src="./images/LabVIEW.png" alt="LabVIEW" /></div>
 
-<div align="center">  <img src="./images/LabVIEW2.png" alt="LabVIEW2" /></div>
-
-![figure1t.png](./Images/figure.png)
+![LabVIEW2.png](./Images/LabVIEW2.png)
 
 
 
@@ -176,11 +172,13 @@ disp('UART 포트가 닫혔습니다.');
 
 ------
 
-![figure1t.png](./Images/figure.png)
+![circuit1.png](./Images/circuit1.png)
 
 ## 1. MCU / +5V Power / -5V Power / +3V3 Power
 
-![figure1t.png](./Images/figure.png)
+![circuit2.png](./Images/circuit2.png)
+
+
 
 ### 1.1 MCU (ATmega128) :
 
@@ -198,14 +196,14 @@ disp('UART 포트가 닫혔습니다.');
 
 ## 2. Electrocardiogram
 
-![figure1t.png](./Images/figure.png)
+![circuit3.png](./Images/circuit3.png)
 
 ### 2.1 Electrocardiogram :
 
 - Description : Non-invert Amp + Differential Amp + Driven Right Leg + Active 1-pole band pass filter + Summing Amp
 - Communication : 10 bit resolution ADC
 
-![figure1t.png](./Images/figure.png)
+![theorem.png](./Images/theorem.png)
 
 - Non-invert Amp : Differential Amp만 사용하게 될 경우 Lead 저항과 합성이 되어 impedance isolation을 진행해야 한다.
 
@@ -249,7 +247,7 @@ disp('UART 포트가 닫혔습니다.');
 
 ## 3. 5V to 3V3 Level Shifter / TFT LCD / LEAD Connector
 
-![스크린샷 2024-11-10 215545.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7fd048e-45c5-49ab-b234-d81b16a92994/80a8d157-27f7-457c-864f-a5867d489a0b/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-11-10_215545.png)
+![circuit4.png](./Images/circuit4.png)
 
 ### 3.1 Level Shifter 5V to 3V3 :
 
@@ -278,19 +276,19 @@ disp('UART 포트가 닫혔습니다.');
 
 ------
 
-![figure1t.png](./Images/figure.png)
+![part_layout.png](./Images/part_layout.png)
 
 # Top Layer
 
 ------
 
-![figure1t.png](./Images/figure.png)
+![top_layout.png](./Images/top_layout.png)
 
 # Bottom Layer
 
 ------
 
-![figure1t.png](./Images/figure.png)
+![bottom_layout.png](./Images/bottom_layout.png)
 
 # 프로젝트 진행하면서 어려웠던 점
 
