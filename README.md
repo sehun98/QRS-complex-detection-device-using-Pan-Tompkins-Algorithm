@@ -10,7 +10,7 @@
 
 ------
 
-![action_potential.png](./images/action_potential.png)
+![action_potential.png](./Images/action_potential.png)
 
 1. Rest membrane potential : Extracellular fluid에 Na⁺ > Cl ⁻ > K ⁺  순으로 함유되어있다. 이때 extra에 있는 3개의 Sodium(Na⁺ )와 intra에 있는 2개의 Potassium(K ⁺ )이 Na⁺/K⁺ ATPase에 의해 교환이 이루어진다. 이를 -80mV의 음전하를 띄는 Rest membrane potential이라 한다.
 2. Depolarization : 여러 자극이 존재하지만 근육에 붙어있는 Tendon에서 신호가 발생한 근 신호를 예를 들어 자극이 임계값(threshold)이상 발생하면 Na⁺  channel이 열리게 되어 Na⁺ 가 농도 차이에 의해 빠르게 유입되어 전위가 약 +30mV까지 상승하게 된다. 이를 Depolarization 이라 한다.
