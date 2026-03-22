@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<thermo>
+<import>
+<idf_board>D:\PROJECT\PCB\ECG\PCB\ECG_COPPER_backup_PCB\ECG_COPPER_backup_BoardSim.emn</idf_board>
+<idf_lib>D:\PROJECT\PCB\ECG\PCB\ECG_COPPER_backup_PCB\ECG_COPPER_backup_BoardSim.emp</idf_lib>
+<hyp>D:\PROJECT\PCB\ECG\PCB\ECG_COPPER_backup_PCB\ECG_COPPER_backup_BoardSim.hyp</hyp>
+</import>
+</thermo>

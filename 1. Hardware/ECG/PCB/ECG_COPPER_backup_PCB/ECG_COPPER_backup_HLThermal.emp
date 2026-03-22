@@ -1,0 +1,123 @@
+.HEADER
+LIBRARY_FILE    3.0    "PADS Layout 9.5"    2023/06/10.23:12:54    1
+.END_HEADER
+.ELECTRICAL
+TFT_SZH_EK096                                TFT_SZH-EK096                                MM        0.0                      
+0     -0.05                    -0.05                    0     
+0     40.15                    -0.05                    0     
+0     40.15                    67.25                    0     
+0     -0.05                    67.25                    0     
+0     -0.05                    -0.05                    0     
+.END_ELECTRICAL
+.ELECTRICAL
+CAP_                                         CAP_                                         MM        1.27                     
+0     -2.59                    -2.59                    0     
+0     2.59                     -2.59                    0     
+0     2.59                     2.59                     0     
+0     -2.59                    2.59                     0     
+0     -2.59                    -2.59                    0     
+.END_ELECTRICAL
+.ELECTRICAL
+SN74LVC245A                                  SN74LVC245A                                  MM        1.27                     
+0     -5.05                    -12.55                   0     
+0     5.05                     -12.55                   0     
+0     5.05                     12.55                    0     
+0     -5.05                    12.55                    0     
+0     -5.05                    -12.55                   0     
+.END_ELECTRICAL
+.ELECTRICAL
+RES                                          RES                                          MM        1.27                     
+0     -5.842                   -1.35                    0     
+0     5.842                    -1.35                    0     
+0     5.842                    1.35                     0     
+0     -5.842                   1.35                     0     
+0     -5.842                   -1.35                    0     
+.END_ELECTRICAL
+.ELECTRICAL
+TL064                                        TL064                                        MM        1.27                     
+0     -5.13                    -9.1                     0     
+0     5.13                     -9.1                     0     
+0     5.13                     9.1                      0     
+0     -5.13                    9.1                      0     
+0     -5.13                    -9.1                     0     
+.END_ELECTRICAL
+.ELECTRICAL
+DSUB_9PIN_FEMALE                             DSUB_9PIN_FEMALE                             MM        1.27                     
+0     -3.35                    -15.75                   0     
+0     9.35                     -15.75                   0     
+0     9.35                     15.75                    0     
+0     -3.35                    15.75                    0     
+0     -3.35                    -15.75                   0     
+.END_ELECTRICAL
+.ELECTRICAL
+TP                                           TP                                           MM        0.0                      
+0     -1.7                     -1.7                     0     
+0     1.7                      -1.7                     0     
+0     1.7                      1.7                      0     
+0     -1.7                     1.7                      0     
+0     -1.7                     -1.7                     0     
+.END_ELECTRICAL
+.ELECTRICAL
+LM385                                        LM385                                        MM        1.27                     
+0     -2.18506                 -3.58506                 0     
+0     0.68                     -3.58506                 0     
+0     0.68                     0.78506                  0     
+0     -2.18506                 0.78506                  0     
+0     -2.18506                 -3.58506                 0     
+.END_ELECTRICAL
+.ELECTRICAL
+ATMEGA128PL                                  ATMEGA128PL                                  MM        1.27                     
+0     -2.55                    -21.65                   0     
+0     43.15                    -21.65                   0     
+0     43.15                    21.65                    0     
+0     -2.55                    21.65                    0     
+0     -2.55                    -21.65                   0     
+.END_ELECTRICAL
+.ELECTRICAL
+DG127-5_0                                    DG127-5_0                                    MM        1.27                     
+0     -5.05                    -4.85                    0     
+0     5.05                     -4.85                    0     
+0     5.05                     4.85                     0     
+0     -5.05                    4.85                     0     
+0     -5.05                    -4.85                    0     
+.END_ELECTRICAL
+.ELECTRICAL
+LED                                          LED                                          MM        1.27                     
+0     -2.39                    -2.55                    0     
+0     2.55                     -2.55                    0     
+0     2.55                     2.55                     0     
+0     -2.39                    2.55                     0     
+0     -2.39                    -2.55                    0     
+.END_ELECTRICAL
+.ELECTRICAL
+LM7805A                                      LM7805                                       MM        1.27                     
+0     -2.56                    -4.25                    0     
+0     7.66                     -4.25                    0     
+0     7.66                     16.82                    0     
+0     -2.56                    16.82                    0     
+0     -2.56                    -4.25                    0     
+.END_ELECTRICAL
+.ELECTRICAL
+ICL7660                                      ICL7660                                      MM        1.27                     
+0     -5.13                    -5.765                   0     
+0     5.13                     -5.765                   0     
+0     5.13                     5.765                    0     
+0     -5.13                    5.765                    0     
+0     -5.13                    -5.765                   0     
+.END_ELECTRICAL
+.ELECTRICAL
+HOLE                                         HOLE                                         MM        0.0                      
+0     -2.5                     -2.5                     0     
+0     2.5                      -2.5                     0     
+0     2.5                      2.5                      0     
+0     -2.5                     2.5                      0     
+0     -2.5                     -2.5                     0     
+.END_ELECTRICAL
+.ELECTRICAL
+LM3940A                                      LM3940                                       MM        1.27                     
+0     -3.25                    -4.25                    0     
+0     8.36                     -4.25                    0     
+0     8.36                     19.12                    0     
+0     -3.25                    19.12                    0     
+0     -3.25                    -4.25                    0     
+.END_ELECTRICAL

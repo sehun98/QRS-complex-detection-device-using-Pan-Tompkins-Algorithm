@@ -1,0 +1,48 @@
+<design>ECG_COPPER_backup_BoardSim.hyp</design>
+<message>HyperLynx v8.2.1</message>
+<message>06/10/23 23:06:50</message>
+<message>Design: ECG_COPPER_backup_BoardSim.hyp</message>
+<message></message>
+<message>DC Drop Batch Simulation</message>
+<message>Design File: ECG_COPPER_backup_BoardSim.hyp</message>
+<message>Output Folder: D:\PROJECT\PCB\ECG\PCB\ECG_COPPER_backup_PCB\DCDROP_2023-06-10-23-06-50</message>
+<message></message>
+<message>Net +5V</message>
+<message>Voltage Drop Threshold = 50.0mV</message>
+<message>Current Density Threshold = <cdensity format=%.1f show_units=yes>1.55e+007</cdensity></message>
+<message>Via Current Threshold = 1000.0mA</message>
+<error>Simulation failed due to following reason: No connected VRMs found in power net\n</error>
+<message>Net -5V</message>
+<message>Voltage Drop Threshold = 50.0mV</message>
+<message>Current Density Threshold = <cdensity format=%.1f show_units=yes>1.55e+007</cdensity></message>
+<message>Via Current Threshold = 1000.0mA</message>
+<error>Simulation failed due to following reason: No connected VRMs found in power net\n</error>
+<message>Net GND</message>
+<message>Voltage Drop Threshold = 50.0mV</message>
+<message>Current Density Threshold = <cdensity format=%.1f show_units=yes>1.55e+007</cdensity></message>
+<message>Via Current Threshold = 1000.0mA</message>
+<error>Simulation failed due to following reason: No connected VRMs found in power net\n</error>
+<message>Net +3V3</message>
+<message>Voltage Drop Threshold = 50.0mV</message>
+<message>Current Density Threshold = <cdensity format=%.1f show_units=yes>1.55e+007</cdensity></message>
+<message>Via Current Threshold = 1000.0mA</message>
+<error>Simulation failed due to following reason: No connected VRMs found in power net\n</error>
+<message>Net $$$12300</message>
+<message>Voltage Drop Threshold = 50.0mV</message>
+<message>Current Density Threshold = <cdensity format=%.1f show_units=yes>1.55e+007</cdensity></message>
+<message>Via Current Threshold = 1000.0mA</message>
+<error>Simulation failed due to following reason: No connected VRMs found in power net\n</error>
+<message>Net AGND</message>
+<message>Voltage Drop Threshold = 50.0mV</message>
+<message>Current Density Threshold = <cdensity format=%.1f show_units=yes>1.55e+007</cdensity></message>
+<message>Via Current Threshold = 1000.0mA</message>
+<error>Simulation failed due to following reason: No connected VRMs found in power net\n</error>
+<message>Net UNUSED_PINS_PADS00</message>
+<message>Voltage Drop Threshold = 50.0mV</message>
+<message>Current Density Threshold = <cdensity format=%.1f show_units=yes>1.55e+007</cdensity></message>
+<message>Via Current Threshold = 1000.0mA</message>
+<error>Simulation failed due to following reason: No connected VRMs found in power net\n</error>
+<message>Total nets analyzed: 0</message>
+<message>Nets passed: 0</message>
+<message>Nets failed: 0</message>
+<message>Total simulation time: 00:00:00</message>
