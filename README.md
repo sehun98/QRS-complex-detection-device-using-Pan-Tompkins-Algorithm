@@ -207,43 +207,38 @@ disp('UART 포트가 닫혔습니다.');
 
 - Non-invert Amp : Differential Amp만 사용하게 될 경우 Lead 저항과 합성이 되어 impedance isolation을 진행해야 한다.
 
-  $$ \: A_V = 1 + \frac{R_1}{R_{\text{gain}/2}} = 1 + \frac{2R_1}{R_{\text{gain}}} $$
 
-  $$ \: CMRR \approx 1 $$
+$$ \: A_V = 1 + \frac{R_1}{R_{\text{gain}/2}} = 1 + \frac{2R_1}{R_{\text{gain}}} $$
+
+$$ \: CMRR \approx 1 $$
 
 - Differential Amp : CMRR이 좋은 소신호 증폭기
 
-  $$ V_{\text{out}} = V_1 \times \left( 1 + \frac{2R_1}{R_{\text{gain}}} \right) \left( - \frac{R_3}{R_2} \right) $$
 
-  $$ \: CMRR \approx \infty
+$$ V_{\text{out}} = V_1 \times \left( 1 + \frac{2R_1}{R_{\text{gain}}} \right) \left( - \frac{R_3}{R_2} \right) $$
 
-  $$
+$$ \: CMRR \approx \infty $$
 
 - Driven Right Leg : 작은 전류로 CMRR을 feedback 시켜 CMRR을 효과적으로 제거하기 위해 사용되고 R4를 통해 인체에 흘러가는 전류량을 제한한다.
 
-  $$ \: A_V = \frac{1}{2} \left( - \frac{R_3}{R_1} \right) = -100
 
-  $$
+$$ \: A_V = \frac{1}{2} \left( - \frac{R_3}{R_1} \right) = -100 $$
 
-  $$ \: V_{\text{out}} = 2 \times \frac{1}{2} \left( V_{\text{in}} + 1.24V_{\text{DC}} \right) $$
+$$ \: V_{\text{out}} = 2 \times \frac{1}{2} \left( V_{\text{in}} + 1.24V_{\text{DC}} \right) $$
 
 - Active 1-pole band pass filter : band pass filter를 통해 신호를 필터한다.
 
-  $$ \: f_{CH} = \frac{1}{2\pi C_1 R_1} \approx 0.048\text{Hz}, \quad f_{CL} = \frac{1}{2\pi R_4 C_2} \approx 106.1\text{Hz}
 
-  $$
+$$ \: f_{CH} = \frac{1}{2\pi C_1 R_1} \approx 0.048\text{Hz}, \quad f_{CL} = \frac{1}{2\pi R_4 C_2} \approx 106.1\text{Hz} $$
 
-  $$ \: A_V = 1 + \frac{R_4}{R_3} = 4.19
+$$ \: A_V = 1 + \frac{R_4}{R_3} = 4.19 $$
 
-  $$
-
-  $$ \: R_2 = R_1 = 3.3\text{Mohm} \quad \text{(impedance matching)}
-
-  $$
+$$ \: R_2 = R_1 = 3.3\text{Mohm} \quad \text{(impedance matching)} $$
 
 - Summing Amp : MCU에서 인식할 수 있는 전압 범위를 위해 offset을 진행하며 증폭을 진행 시킨다.
 
-  $$ V_{\text{out}} = 2 \times \frac{1}{2} \left( V_{\text{in}} + 1.24 V_{\text{DC}} \right) $$
+
+$$ V_{\text{out}} = 2 \times \frac{1}{2} \left( V_{\text{in}} + 1.24 V_{\text{DC}} \right) $$
 
 ## 3. 5V to 3V3 Level Shifter / TFT LCD / LEAD Connector
 
